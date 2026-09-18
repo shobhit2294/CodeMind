@@ -17,4 +17,4 @@ COPY evaluation/ ./evaluation/
 COPY --from=frontend /build/dist ./frontend/dist/
 ENV CODEMIND_DATA=/data PYTHONUNBUFFERED=1
 EXPOSE 8000
-CMD ["uvicorn", "backend.main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["sh", "-c", "exec uvicorn backend.main:app --host 0.0.0.0 --port ${PORT:-8000}"]
