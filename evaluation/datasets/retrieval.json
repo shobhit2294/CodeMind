@@ -1,0 +1,6 @@
+[
+  {"query":"percentage discount calculation subtotal", "relevant":["pricing.py"]},
+  {"query":"checkout order currency INR", "relevant":["orders.py"]},
+  {"query":"invalid discount raises ValueError", "relevant":["tests/test_pricing.py","pricing.py"]},
+  {"query":"empty cart regression", "relevant":["tests/regression/test_empty.py"]}
+]

@@ -1,0 +1,8 @@
+CodeMind project package
+
+Extract this ZIP first. Follow the Fresh setup section in README.md.
+The prebuilt frontend is included; Python dependencies must be installed locally.
+Copy .env.example to .env and add your own Groq API key.
+Your API key, downloaded repositories, task history, virtual environment,
+node_modules and embedding caches are deliberately excluded.
+Start Docker Desktop and build the sandbox image to verify patches.
